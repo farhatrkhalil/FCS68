@@ -61,6 +61,7 @@ while fail_count < 3:
         
         def check_prime(number_input):
             for i in range(2, number_input):
+                # if the remainder is zero, that means the number divides evenly, so it’s not prime.
                 if number_input % i == 0:
                     return False
             return True
