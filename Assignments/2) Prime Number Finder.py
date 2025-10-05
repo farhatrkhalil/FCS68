@@ -65,7 +65,9 @@ while fail_count < 3:
                     return False
             return True
         
-        primes.clear()
+        # Declare the function outside for memory purposes 
+
+        # primes.clear()
         # number_input + 1 (to include the number itself if it's prime)
         for num in range(2, number_input + 1):
             #if the number is prime, add it to the list of primes
