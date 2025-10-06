@@ -1,4 +1,3 @@
-
 students_number_input = int(input("Enter number of students: "))
 
 while students_number_input <= 0:
@@ -37,7 +36,7 @@ if students_number_input > 0:
 
     print("\nAll students and scores:")
     for i in range(students_number_input):
-        print(f"{students_names[i]} - {students_scores[i]}")
+        print(f"{students_names[i]} - {students_scores[i]:.0f}")
 
     # 2f means “floating-point number with 0 or 1 or 2 digits after the decimal point.”
     print(f"\nAverage score: {average_score:.1f}")
