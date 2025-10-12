@@ -13,7 +13,7 @@ if students_number_input > 0:
         name_input = input(f"Enter student {i + 1} name: ")
 
         # .strip() removes any spaces before and after the name.
-        # .isalpha() then checks only the letters.
+        # .isalpha() then checks only the letters. (remove it to have first and last name)
         while not name_input.strip().isalpha():
             print("Invalid input. Please enter a valid name (alphabetic characters only).")
             # Without the f, Python would print the curly braces literally instead of replacing them with variable values.
