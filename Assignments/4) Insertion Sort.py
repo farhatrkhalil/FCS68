@@ -31,5 +31,5 @@ if __name__ == "__main__":
     sorted_array = insertion_sort(sample_array)
     print("Sorted array is:", sorted_array)
 # This will output: Sorted array is: [5, 6, 11, 12, 13]
-# The time complexity of Insertion Sort is O(n^2) in the worst case,
-# but it performs well on small or nearly sorted datasets.
+# The time complexity of Insertion Sort is O(n^2) in the worst case,but it performs well on small 
+# or nearly sorted datasets.
