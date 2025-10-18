@@ -17,7 +17,7 @@ def insertion_sort(arr):
         # Move elements of arr[0..i-1], that are greater than key,
         # to one position ahead of their current position
         while j >= 0 and key < arr[j]:
-            arr[j + 1] = arr[j]  # Shift element to the right
+            arr[j + 1] = arr[j]  # Shift element to the right (insertion step not replacing)
             j -= 1
 
         # Place the key in its correct position
